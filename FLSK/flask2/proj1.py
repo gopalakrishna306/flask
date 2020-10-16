@@ -69,12 +69,12 @@ def filesaver():
     return render_template('resultview.html')
 
 
-@app.route("/")
-def index():
-   msg = Message('Hello', sender = 'gopalakrishna255@gmail.com', recipients = ['gk9652@gmail.com'])
-   msg.body = "This is the email body"
-   mail.send(msg)
-   return "Sent"
+# @app.route("/")
+# def index():
+#    msg = Message('Hello', sender = 'gopalakrishna255@gmail.com', recipients = ['gk9652@gmail.com'])
+#    msg.body = "This is the email body"
+#    mail.send(msg)
+#    return "Sent"
 
 
 
