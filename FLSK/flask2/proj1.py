@@ -14,7 +14,8 @@ app.config['MAIL_USE_SSL'] = True
 @app.route('/home')
 def home():
     name = 'gopalakrishna'
-    return  render_template('home.html',{'name':name})
+    age='28'
+    return  render_template('home.html',{'name':name,'age':age})
 
 @app.route('/ssc')
 def ssc():
