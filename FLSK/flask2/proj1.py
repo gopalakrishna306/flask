@@ -49,8 +49,6 @@ def result():
         print("name :-{}\n age :-{}\n sex :-{}\n phone :-{}\n emai :-{}".format(name,age,sex,phone,email))
     else:
         return abort(401,'not admin')
-
-
     return  redirect(url_for('resultview'))
 
 
