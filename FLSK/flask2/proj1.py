@@ -1,6 +1,4 @@
 from flask import Flask,render_template,request,redirect,url_for,abort
-import werkzeug
-from werkzeug import  secure_filename
 from flask_mail import Mail ,Message
 
 app=Flask(__name__)
