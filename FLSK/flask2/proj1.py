@@ -61,7 +61,7 @@ def fileuploder():
 def filesaver():
     if request.method=="POST":
         f=request.files['files']
-        f.save(secure_filename(f.filename))
+        # f.save(secure_filename(f.filename))
     return render_template('resultview.html')
 
 
